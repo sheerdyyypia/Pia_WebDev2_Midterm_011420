@@ -1,0 +1,34 @@
+.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Exercise #6: Simple form</title>
+</head>
+<body>
+<form class="col-xs-5">
+    <div class="form-group">
+        <label for="first_name">First name:</label>
+        <input type="text" class="form-control" name="first_name" id="first_name"/>
+    </div>
+    <div class="form-group">        
+        <label for="last_name">Last name:</label>
+        <input type="text" class="form-control" name="last_name" id="last_name"/>
+   </div>
+   <div>
+        <label><input type="radio" name="gender" value="male"/>male</label>
+        <label><input type="radio" name="gender" value="female"/>female</label>
+    </div>
+   <div class="form-group">
+        <label for="birth_date">Date of birth:</label>
+        <input type="date" class="form-control" name="birth_date" id="birth_date"/>
+    </div>
+    <input type="submit" class="btn btn-primary +btn-md" value="Add"/>
+</div>
+</form>
+</body>
+</html>
